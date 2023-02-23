@@ -9,7 +9,7 @@
 
 <security:authorize access="hasRole('USER')">
     <input type="button" value="Create reservation"
-           onclick="window.location.href = 'view_for_users'">
+           onclick="window.location.href = 'user_interface'">
 </security:authorize>
 Reservations
 
@@ -18,7 +18,7 @@ Reservations
 
 <security:authorize access="hasRole('ADMIN')">
     <input type="button" value="Change reservation"
-           onclick="window.location.href = 'view_for_admins'">
+           onclick="window.location.href = 'admin_interface'">
 </security:authorize>
 Reservations details
 
